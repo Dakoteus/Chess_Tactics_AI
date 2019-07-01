@@ -1,0 +1,36 @@
+
+\documentclass{article}% use option titlepage to get the title on a page of its own.
+\usepackage{blindtext}
+\usepackage[margin=0.5in]{geometry}
+\title{README FOR CHESS AI}
+\date{}
+\setcounter{secnumdepth}{0}
+\author{Dakota Wicker, Chance Moore}
+\begin{document}
+\maketitle
+\section{Requirements}
+\begin{itemize}
+  \item python3
+  \item python-chess
+  \item FEN
+\end{itemize}
+\section{How to install python-chess}
+\subsection{Linux}
+\begin{itemize}
+  \item Download and install python3
+  \item Run the command 'python -m pip install python-chess'
+\end{itemize}
+\subsection{Windows}
+\begin{itemize}
+  \item Download and install python3
+  \item You can either navigate to where python.exe is installed in a CMD and enter the command: 'python -m pip install python-chess' or alternatively do the next step which is more convienient for using this program when it comes to running the code.
+  \item \( \hbox{Press home button} \rightarrow \hbox{search for 'Environment Variables'} \\ \rightarrow \hbox{Click the box that says 'Environment Variables...'} \\ \rightarrow \hbox{In the 'User variables for *username* ' double click 'Path'} \\ \rightarrow \hbox{Select 'New'} \rightarrow \hbox{Enter path to python.exe} \rightarrow \hbox{click ok x3} \\\rightarrow \hbox{Press home button} \rightarrow \hbox{search for cmd} \rightarrow \hbox{type 'python -m pip install python-chess' into cmd.}\)
+\end{itemize}
+\section{How to use chess-tactics}
+\begin{itemize}
+\item Do a git clone or download from github
+\item In CMD: cd into the folder with chess\_tactics\_solver.py
+\item In CMD run: 'python chess\_tactics\_solver.py'
+\item Take your FEN and copy it to where it asks
+\end{itemize}
+\end{document}
