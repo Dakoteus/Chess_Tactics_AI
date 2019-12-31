@@ -241,7 +241,7 @@ def main():
     while(True):
         if cont % 2 == 0: #cont is for player turn. So, its always AI to move and then player.
             print("Thinking...")
-            mov = Solve(board, 3)
+            mov = Solve(board, 2)
             board.push(mov)
             print("Moving:",mov)
             noobPrint(board)
